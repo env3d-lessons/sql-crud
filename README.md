@@ -186,7 +186,7 @@ showing how easy it is to build a small database-driven application.
 
 # Exercise
 
-## Task 1: Follow the above instructions to create `app.py`.
+## Task 1: Follow the above instructions to create `app.py`
 
 ## Task 2: Create a "search" function
 
