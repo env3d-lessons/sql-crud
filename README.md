@@ -128,9 +128,6 @@ def delete_user(uid):
     cursor = conn.execute("DELETE FROM users WHERE id = ?", (uid,)) # we need to provide a comma if we only have 1 value
     return cursor.rowcount > 0  # True if at least one row was deleted
 
-def search_user(name):
-    return conn.execute("SELECT * FROM users WHERE name = ?", (name,)).fetchall()
-
 def main():
     while True:
         print("\nChoose an option:")
